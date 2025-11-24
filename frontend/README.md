@@ -25,3 +25,14 @@ Image passed to the LLM.
 ![](./docs/harward_resume.png)
 
 This is the [generated output](./docs/Nov-23-2025-resume.html) which I will refactor.
+
+This is what the generated HTML looks like unaltered
+![](./docs/Nov-23-2025-resume-redacted.png)
+
+## HTML Adjustment
+
+- I plan to use only English Language.
+- For mobile styling to our website we'll include the viewport meta tag width=device-width.
+- We will extraxt our styles into its own stylesheet after we are happy with our mark up.
+- The goal is to simplify the markers as much as possible.
+- For the HTML page I will use 4 spaces as I mostly code in Python.
