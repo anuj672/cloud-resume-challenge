@@ -36,3 +36,26 @@ This is what the generated HTML looks like unaltered
 - We will extraxt our styles into its own stylesheet after we are happy with our mark up.
 - The goal is to simplify the markers as much as possible.
 - For the HTML page I will use 4 spaces as I mostly code in Python.
+
+## Serve Static Website Locally
+
+We need to serve our static website locally so we can start using stylesheets externally from our HTML page in a Cloud Developer Env. (CDE).
+
+> This is not necessary with local development.
+
+
+### Install HTTP Server
+```sh
+npm i http-server -g
+```
+
+https://www.npmjs.com/package/http-server
+
+### Server Website
+
+http-server will serve a public folder by default where the command is run.
+
+```sh
+cd frontend
+http-server
+```
