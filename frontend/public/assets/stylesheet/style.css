@@ -52,7 +52,7 @@ div.content_wrapp{
     padding: 32px;
     height: 100%;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 
