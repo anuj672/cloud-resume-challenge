@@ -13,14 +13,8 @@ html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background: rgb(0, 255, 0);
-}
-
-article{
-    flex-grow: 1;
-    overflow: auto;
-    display: flex;
-    justify-content: center;
+    background: url('../images/paper-white.jpeg');
+    background-size: cover; 
 }
 
 main{
@@ -31,14 +25,41 @@ main{
     overflow: hidden;
 }
 
-
 header{
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
     flex-shrink: 1;
 }
 
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav a {
+    padding: 24px;
+    color: rgb(255, 255, 255);
+
+}
+
 div.content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+div.content_wrapp{
+    padding: 32px;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+article{
     width: 1100px;
     background: rgb(255, 255, 255);
-
+    box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);
+    padding: 24px;
+    flex-direction: column;
 }
