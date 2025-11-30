@@ -1,3 +1,5 @@
+@import 'css/breakpoint';
+
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -66,7 +68,6 @@ div.content{
 }
 
 div.content_wrapp{
-    padding: 32px;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -74,11 +75,22 @@ div.content_wrapp{
 
 
 article{
-    width: 1100px;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);
     padding: 24px;
     flex-direction: column;
     display: flex;
     gap: 16px;
+}
+
+@media (--small-only) {
+}
+  
+@media (--medium-up) {
+    div.content_wrap {
+        padding: 32px;
+    }
+    article {
+        width: 1100px;
+        box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);    
+  }
 }
