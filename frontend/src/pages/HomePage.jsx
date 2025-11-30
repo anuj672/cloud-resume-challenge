@@ -1,10 +1,14 @@
 import React from 'react';
 import 'css/pages/home.css';
+import cover from 'images/cover.jpg';
+
 
 export default function HomePage() {
   return (
     <>
-        home page
+        <div class ="home-photo">
+            <img src={cover} /> 
+        </div>
     </>
     )
 }
