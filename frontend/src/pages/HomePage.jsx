@@ -6,7 +6,7 @@ import cover from 'images/cover.jpg';
 export default function HomePage() {
   return (
     <>
-        <div class ="home-photo">
+        <div className ="home-photo">
             <img src={cover} /> 
         </div>
     </>

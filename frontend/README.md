@@ -63,5 +63,5 @@ http-server
 ### Frontend Framework Consideration
 
 - Choose to use react becuase it is the most popular framework.
-- Choose to use Vite.js ober webpack because our frontend is very simple.
+- Choose to use Vite.js over webpack because our frontend is very simple.
 - Configure React Roouter V7, decided to use declartive mode because again our app is very simple.
