@@ -1,6 +1,6 @@
 import React from 'react';
 import 'css/pages/projects.css';
-import ProjectsData from 'data/ProjectsData';
+import projectsData from 'data/projectsData.json';
 import ProjectItem from 'components/ProjectItem.jsx';
 
 export default function ProjectsPage() {
@@ -8,7 +8,7 @@ export default function ProjectsPage() {
   return (
     <>
         <div className="projects">
-            {ProjectsData.map((project) => (
+            {projectsData.map((project) => (
                 <ProjectItem key={project.handle} project={project} />
             ))    
             }

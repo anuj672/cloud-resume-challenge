@@ -1,6 +1,6 @@
 import React from 'react';
 import 'css/pages/home.css';
-import cover from 'images/cover.jpg';
+import cover from 'images/cover_thumb.png';
 
 
 export default function HomePage() {

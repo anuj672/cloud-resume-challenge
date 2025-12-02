@@ -1,0 +1,30 @@
+[
+    {
+        "handle": "flask-web-app",
+        "name": "Web Application Development (Flask)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "thumbnail": "https://placehold.co/400x200/png",
+        "body": "# AWS Cloud Resume Challenge\n\nA cloud-native resume website deployed using **AWS**, **Terraform**, and **CI/CD**.\n\n### 🚀 Highlights\n- Static website hosted on **S3**\n- **CloudFront** as CDN\n- **Lambda** + **DynamoDB** for visitor counter\n- Automated deployments with **GitHub Actions**\n\n📌 *Fully serverless, low-cost, and scalable!*"
+    },
+    {
+        "handle": "aws-weather-dashboard",
+        "name": "AWS Weather Dashboard",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "thumbnail": "https://placehold.co/400x200/png",
+        "body": "# AWS Cloud Resume Challenge\n\nA cloud-native resume website deployed using **AWS**, **Terraform**, and **CI/CD**.\n\n### 🚀 Highlights\n- Static website hosted on **S3**\n- **CloudFront** as CDN\n- **Lambda** + **DynamoDB** for visitor counter\n- Automated deployments with **GitHub Actions**\n\n📌 *Fully serverless, low-cost, and scalable!*"
+    },
+    {
+        "handle": "aws-cloud-resume",
+        "name": "AWS Cloud Resume",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "thumbnail": "https://placehold.co/400x200/png",
+        "body": "# AWS Cloud Resume Challenge\n\nA cloud-native resume website deployed using **AWS**, **Terraform**, and **CI/CD**.\n\n### 🚀 Highlights\n- Static website hosted on **S3**\n- **CloudFront** as CDN\n- **Lambda** + **DynamoDB** for visitor counter\n- Automated deployments with **GitHub Actions**\n\n📌 *Fully serverless, low-cost, and scalable!*"
+    },
+    { 
+        "handle": "aws-cloud-architecture",  
+        "name": "AWS Cloud Architecture",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "thumbnail": "https://placehold.co/400x200/png",
+        "body": "# AWS Cloud Resume Challenge\n\nA cloud-native resume website deployed using **AWS**, **Terraform**, and **CI/CD**.\n\n### 🚀 Highlights\n- Static website hosted on **S3**\n- **CloudFront** as CDN\n- **Lambda** + **DynamoDB** for visitor counter\n- Automated deployments with **GitHub Actions**\n\n📌 *Fully serverless, low-cost, and scalable!*"
+    }
+]
