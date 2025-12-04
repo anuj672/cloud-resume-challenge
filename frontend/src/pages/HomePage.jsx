@@ -6,7 +6,7 @@ import cover from 'images/cover_thumb.png';
 export default function HomePage() {
   return (
     <>
-        <div className ="home-photo">
+        <div className ="intro_video">
             <img src={cover} /> 
         </div>
     </>

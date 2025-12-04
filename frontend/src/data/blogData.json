@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Hello-World!",
+    "handle": "hello-world",
+    "date": "2025-12-03",
+    "body_html": "<h2>Hello world</h2>\n<p>This is a test blog post</p>"
+  }
+]
