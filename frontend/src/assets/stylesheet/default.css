@@ -19,7 +19,7 @@ html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background: url('src/assets/images/paper-white.jpeg');
+    background: url('src/assets/images/background-gray.jpeg');
     background-size: cover; 
 }
 
