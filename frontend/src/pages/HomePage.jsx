@@ -7,7 +7,7 @@ import PostItem from 'components/PostItem.jsx';
 export default function HomePage() {
   return (
     <>
-        <h1>The Cloud Resume Challenge</h1>
+        <h1 className='fancy'>Anuj's Personal Website</h1>
         <div className ="intro_video">
             <img src={cover} /> 
         </div>

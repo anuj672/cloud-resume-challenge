@@ -7,6 +7,7 @@ export default function ProjectsPage() {
 
   return (
     <>
+    <h1 className='fancy'>Anuj's Projects</h1>
         <div className="projects">
             {projectsData.map((project) => (
                 <ProjectItem key={project.handle} project={project} />

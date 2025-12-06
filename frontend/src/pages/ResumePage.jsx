@@ -11,6 +11,7 @@ import ResumeCertifications from 'components/resume/ResumeCertifications';
 export default function Resume() {
   return (
     <>   
+
         <ResumeHeader props={ ResumeData.header }></ResumeHeader>
         {/* Education */}
         <ResumeSection
