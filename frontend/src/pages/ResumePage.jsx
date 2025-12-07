@@ -54,29 +54,7 @@ export default function Resume() {
             </>
             )}
         />
-
-        {/* Projects */}
-        <ResumeSection
-            title="Projects"
-            items={ResumeData.projects}
-            renderItem={(item) => (
-            <>
-                <div className="item_heading">
-                <div className="info">
-                    <h3>{item.title}</h3>
-                </div>
-                <div className="details">
-                    <div className="dates">{item.dates}</div>
-                </div>
-                </div>
-                <ul>
-                {item.description.map((desc, idx) => (
-                    <li key={idx}>{desc}</li>
-                ))}
-                </ul>
-            </>
-            )}
-        />
+        {/* Skills and Certifications */}
 
             <ResumeSkills skills={ResumeData.skills} />
             <ResumeCertifications certifications={ResumeData.certifications} />

@@ -13,12 +13,13 @@ export default function PostPage() {
   const post = blogData.find(proj => proj.handle === handle);
   return (
     <>
-        <NavLink className="bttn licon" to={`/`}>
+       <NavLink className="bttn licon" to={`/`}>
           <ChevronLeft />
           Back to Home   
-        </NavLink>
-        <h2>{post.name}</h2>
-        <div className='"date"'>Published on {post.date}</div>
+        </NavLink>    
+      <h1 className='fancy'>{post.name}</h1>
+        <div className="date">{post.date}</div>
+        {/* <h2>{post.name}</h2> */}
         <div className='markdown' dangerouslySetInnerHTML={{ __html: post.body_html }}></div>
     </>
     )

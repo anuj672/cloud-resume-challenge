@@ -22,10 +22,11 @@ const ResumeData = {
         location: "Harleysville, PA",
         dates: "May 2024 – Present",
         description: [
-          "Saved ~$45K annually by migrating 16 production applications from Oracle ADF to containerized Python FastAPI microservices.",
-          "Reduced development effort by 40% by creating a reusable FastAPI template with OracleDB integration and JWT authentication.",
-          "Enabled fully automated releases (5+ per week) with a Jenkins CI/CD pipeline to build, test, and deploy microservices.",
-          "Integrated OpenTelemetry logging into Dynatrace to prevent critical production incidents.",
+          "Migrated 16 legacy Oracle ADF production applications to containerized Python FastAPI microservices, driving ~$45K in annual cost savings.",
+          "Built a reusable FastAPI service template with OracleDB integration and JWT authentication, reducing team development effort by 40%+.",
+          "Designed and implemented Jenkins CI/CD pipelines to automate build, test, and deployment workflows, enabling 5+ production releases per week.",
+          "Integrated OpenTelemetry with Dynatrace to enable distributed tracing and prevent 10+ recurring production incidents monthly.",
+          "Collaborated with DBAs and security teams to optimize SQL performance and modernize authentication flows."
         ],
       },
       {
@@ -34,8 +35,8 @@ const ResumeData = {
         location: "Harleysville, PA",
         dates: "Jan 2024 – May 2024",
         description: [
-          "Designed an AWS Elastic Beanstalk deployment POC enabling fast delivery of Python applications.",
-          "Automated database application deployments, saving 2+ DBA hours weekly with CI/CD workflows.",
+          "Developed an AWS Elastic Beanstalk deployment proof-of-concept to rapidly ship Python applications.",
+          "Automated database deployment workflows, saving 2+ DBA hours per week and improving release reliability.",
         ],
       },
       {
@@ -44,8 +45,8 @@ const ResumeData = {
         location: "Harleysville, PA",
         dates: "Jun 2023 – Aug 2023",
         description: [
-          "Built 3 Jenkins CI/CD pipelines using Groovy + Bash, reducing release time from 3 hours to 15 minutes and enabling 1,000+ deployments.",
-          "Migrated 16 applications from SVN to GitHub Enterprise, improving version control and collaboration.",
+          "Built three Jenkins CI/CD pipelines using Groovy and Bash, reducing release times from 3 hours to 15 minutes.",
+          "Migrated 16 applications from SVN to GitHub Enterprise, improving version control and team collaboration.",
         ],
       },
       {
@@ -54,20 +55,23 @@ const ResumeData = {
         location: "Raleigh, NC",
         dates: "Aug 2023 – Dec 2023",
         description: [
-          "Implemented a backup solution for a production Ruby on Rails website using Bash, cron, Python, and rsync to ensure full recoverability of 40+ GB of data.",
+          "Automated backups for a 40+ GB production Ruby on Rails system using Bash, cron, Python, and rsync, ensuring full data recoverability.",
+          "Created monitoring scripts to validate backups and trigger failure alerts, reducing manual oversight by 50%.",
         ],
       },
       {
         company: "HSBC",
         role: "Cloud DevOps Engineer",
-        location: "Pune, MH",
+        location: "Pune, India",
         dates: "Sep 2020 – May 2022",
         description: [
-          "Resolved 90+ weekly operational tickets, handling 35% of the team workload while managing Terraform deployments, CI/CD pipelines, and Docker publishing.",
-          "Led GCP operations enablement for a global team of 20+, training colleagues on GitHub, Jenkins, Terraform & logging solutions.",
+          "Resolved 90+ weekly GCP operational tickets, handling ~35% of team workload across production cloud systems.",
+          "Deployed Terraform-managed IAM roles and infrastructure, improving security posture and environment consistency.",
+          "Trained 20+ global engineers across USA, UK, Poland, India, and China on Jenkins, GitHub, Terraform, and cloud logging practices.",
         ],
       },
     ],
+    
   
     skills: {
       coding: ["Python", "C++", "Java", "HTML", "Terraform", "Ansible", "SQL", "Bash", "Groovy"],
@@ -77,31 +81,6 @@ const ResumeData = {
       ],
       networking: ["TCP/IP", "DNS", "OSI model", "Firewalls", "VPC"],
     },
-  
-    projects: [
-      {
-        title: "AWS Cloud Architecture",
-        dates: "Aug 2023",
-        description: [
-          "Engineered secure AWS cloud foundations for a banking application using VPC, Shield, VPC Flow Logs, and CloudWatch."
-        ],
-      },
-      {
-        title: "AWS Cloud Resume",
-        dates: "Aug 2024",
-        description: [
-          "Developed a scalable portfolio website using S3, CloudFront, DynamoDB, and Lambda to track visitor counts."
-        ],
-      },
-      {
-        title: "AWS Weather Dashboard",
-        dates: "Jan 2025",
-        description: [
-          "Designed a weather visualization system using Lambda and S3 with secrets stored in SSM and charts in QuickSight."
-        ],
-      },
-    ],
-  
     certifications: [
       {
         title: "AWS Solutions Architect – Associate",

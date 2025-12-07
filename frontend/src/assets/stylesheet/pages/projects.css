@@ -16,6 +16,7 @@ body[location="projects"] {
             display: flex;
             flex-direction: column;
             .bttn{
+      
                 margin-top: 8px;
             }
             p {
@@ -54,6 +55,10 @@ body[location="projects"] {
       .project_item {
         flex-direction: row;
         gap: 16px;
+      }
+      .thumb {
+        flex: 0 0 400px; /* Fixed width, won't grow or shrink */
+
       }
     }
   }

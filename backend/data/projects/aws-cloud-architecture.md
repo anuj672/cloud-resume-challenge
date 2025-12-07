@@ -1,18 +1,18 @@
 ---
 handle: aws-cloud-architecture
 name: AWS Cloud Architecture
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+description: Designed secure and scalable AWS cloud foundations for enterprise-grade applications.
 thumbnail: https://placehold.co/400x200/png
 ---
 
-# AWS Cloud Resume Challenge
+# AWS Cloud Architecture
 
-A cloud-native resume website deployed using **AWS**, **Terraform**, and **CI/CD**.
+A secure, production-ready AWS architecture built for high availability and resilience.
 
 ### 🚀 Highlights
-- Static website hosted on **S3**
-- **CloudFront** as CDN
-- **Lambda** + **DynamoDB** for visitor counter
-- Automated deployments with **GitHub Actions**
+- Designed isolated **VPC architecture** with public and private subnets
+- Configured **Security Groups** and **NACLs**
+- Enabled **VPC Flow Logs** and **CloudWatch** monitoring
+- Implemented **AWS Shield** for DDoS protection
 
-📌 *Fully serverless, low-cost, and scalable!*
+📌 *Focused on security, scalability, and operational visibility.*

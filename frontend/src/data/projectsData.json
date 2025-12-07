@@ -9,9 +9,9 @@
   {
     "handle": "aws-cloud-architecture",
     "name": "AWS Cloud Architecture",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Designed secure and scalable AWS cloud foundations for enterprise-grade applications.",
     "thumbnail": "https://placehold.co/400x200/png",
-    "body_html": "<h1>AWS Cloud Resume Challenge</h1>\n<p>A cloud-native resume website deployed using <strong>AWS</strong>, <strong>Terraform</strong>, and <strong>CI/CD</strong>.</p>\n<h3>🚀 Highlights</h3>\n<ul>\n<li>Static website hosted on <strong>S3</strong></li>\n<li><strong>CloudFront</strong> as CDN</li>\n<li><strong>Lambda</strong> + <strong>DynamoDB</strong> for visitor counter</li>\n<li>Automated deployments with <strong>GitHub Actions</strong></li>\n</ul>\n<p>📌 <em>Fully serverless, low-cost, and scalable!</em></p>"
+    "body_html": "<h1>AWS Cloud Architecture</h1>\n<p>A secure, production-ready AWS architecture built for high availability and resilience.</p>\n<h3>🚀 Highlights</h3>\n<ul>\n<li>Designed isolated <strong>VPC architecture</strong> with public and private subnets</li>\n<li>Configured <strong>Security Groups</strong> and <strong>NACLs</strong></li>\n<li>Enabled <strong>VPC Flow Logs</strong> and <strong>CloudWatch</strong> monitoring</li>\n<li>Implemented <strong>AWS Shield</strong> for DDoS protection</li>\n</ul>\n<p>📌 <em>Focused on security, scalability, and operational visibility.</em></p>"
   },
   {
     "handle": "flask-web-app",
@@ -23,8 +23,8 @@
   {
     "handle": "aws-weather-dashboard",
     "name": "AWS Weather Dashboard",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "A real-time weather monitoring and visualization platform built with AWS serverless services.",
     "thumbnail": "https://placehold.co/400x200/png",
-    "body_html": "<h1>AWS Cloud Resume Challenge</h1>\n<p>A cloud-native resume website deployed using <strong>AWS</strong>, <strong>Terraform</strong>, and <strong>CI/CD</strong>.</p>\n<h3>🚀 Highlights</h3>\n<ul>\n<li>Static website hosted on <strong>S3</strong></li>\n<li><strong>CloudFront</strong> as CDN</li>\n<li><strong>Lambda</strong> + <strong>DynamoDB</strong> for visitor counter</li>\n<li>Automated deployments with <strong>GitHub Actions</strong></li>\n</ul>\n<p>📌 <em>Fully serverless, low-cost, and scalable!</em></p>"
+    "body_html": "<h1>AWS Weather Dashboard</h1>\n<p>A serverless weather analytics and visualization platform.</p>\n<h3>🚀 Highlights</h3>\n<ul>\n<li>Built backend using <strong>AWS Lambda</strong></li>\n<li>Stored data in <strong>Amazon S3</strong></li>\n<li>Managed API secrets securely via <strong>AWS Systems Manager (SSM)</strong></li>\n<li>Created interactive dashboards using <strong>Amazon QuickSight</strong></li>\n</ul>\n<p>📌 <em>Designed for performance, security, and scalability!</em></p>"
   }
 ]

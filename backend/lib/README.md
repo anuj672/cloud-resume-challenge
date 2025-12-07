@@ -27,3 +27,11 @@ invoke --list
 invoke render-blog
 invoke render-projects
 ```
+
+## Pygments
+
+For syntax highlighting for our markdown we need to generate the css.
+
+pip install Pygments
+
+pygmentize -S monokai -f html -a .codehilite > pygments.css
