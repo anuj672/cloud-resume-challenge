@@ -1,5 +1,6 @@
 @import 'css/breakpoint';
 
+
 body[location='resume'] {
 section.header {
     text-align: center;

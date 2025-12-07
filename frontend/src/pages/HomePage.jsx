@@ -1,15 +1,17 @@
 import React from 'react';
 import 'css/pages/home.css';
-import cover from 'images/linkedin.jpeg';
+import cover from 'images/linkedin.png';
 import blogData from 'data/blogData.json';
 import PostItem from 'components/PostItem.jsx';
 import linksData from 'data/linksData.json';
+import ViewCounter from 'components/ViewCounter.jsx';
 
 export default function HomePage() {
   const sortedBlogData = [...blogData].sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <>
         <h1 className='fancy'>Anuj's Personal Website</h1>
+        <ViewCounter />
         <div className ="intro_video">
             <img src={cover} /> 
         </div>

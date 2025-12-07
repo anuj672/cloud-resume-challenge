@@ -1,9 +1,16 @@
-body[location='home'] {
-    
+
+body[location='home'] {  
+    article {
+        background: url('/src/assets/images/article.png');
+    }
     .intro_video img {
         width: 100%;
-        
-    }
+        max-width: 720px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+
+    }   
     .links {
         display: flex;
         flex-direction: row;
