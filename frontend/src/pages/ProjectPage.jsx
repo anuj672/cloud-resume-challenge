@@ -1,6 +1,6 @@
 import React from 'react';
 import 'css/pages/projects.css';
-import ProjectsData from 'data/ProjectsData';
+import ProjectsData from 'data/projectsData';
 import ProjectItem from 'components/ProjectItem.jsx';
 import { ChevronLeft } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
