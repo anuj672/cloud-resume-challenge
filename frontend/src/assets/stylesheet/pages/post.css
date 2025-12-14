@@ -1,7 +1,54 @@
 body[location='blog_post'] {
-    .date {
-      text-align: center;
-      font-size: 18px;
-      color: rgb(169, 161, 174);
-    }
+  padding: 0 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body[location='blog_post'] .fancy {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 0 1rem;
+}
+
+body[location='blog_post'] .date {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(169, 161, 174);
+  padding: 0 1rem;
+}
+
+body[location='blog_post'] .markdown {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+body[location='blog_post'] .markdown pre {
+  overflow-x: auto;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+body[location='blog_post'] .markdown code {
+  word-break: break-all;
+}
+
+body[location='blog_post'] .markdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+body[location='blog_post'] .bttn {
+  margin: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  body[location='blog_post'] .fancy {
+    font-size: 2rem;
   }
+  
+  body[location='blog_post'] .markdown pre {
+    font-size: 12px;
+  }
+}
