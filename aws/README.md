@@ -25,3 +25,9 @@ ansible-vault create playbooks/vaults/prod.yml
 ansible-vault edit playbooks/vaults/prod.yml
 ansible-vault view playbooks/vaults/prod.yml
 ```
+
+## Install Deps for Ansible
+
+```sh
+ansible-galaxy collection install -r requirements.txt
+```

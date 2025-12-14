@@ -9,6 +9,7 @@
     parameters_file: "{{ (playbook_dir, '..', 'vars', 'parameters.yml') | path_join | realpath }}"
     cfn_parameters:
       BucketName: "anuj-aws.com"
+      ACMCertificateArn: "arn:aws:acm:us-east-1:156331627025:certificate/daf50810-59ed-4f59-897c-cdcb83dfa953"
   vars_files:
     - ../vaults/prod.yml
   tasks:
