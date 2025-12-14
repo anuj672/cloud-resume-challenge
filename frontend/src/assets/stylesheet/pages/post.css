@@ -1,37 +1,46 @@
 body[location='blog_post'] {
-  padding: 0 1rem;
   max-width: 100%;
   overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body[location='blog_post'] * {
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 body[location='blog_post'] .fancy {
   word-wrap: break-word;
   overflow-wrap: break-word;
-  padding: 0 1rem;
+  hyphens: auto;
 }
 
 body[location='blog_post'] .date {
   text-align: center;
   font-size: 18px;
   color: rgb(169, 161, 174);
-  padding: 0 1rem;
 }
 
 body[location='blog_post'] .markdown {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+body[location='blog_post'] .markdown * {
   max-width: 100%;
-  padding: 0 1rem;
 }
 
 body[location='blog_post'] .markdown pre {
   overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
   max-width: 100%;
-  font-size: 14px;
 }
 
 body[location='blog_post'] .markdown code {
-  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 body[location='blog_post'] .markdown img {
@@ -39,16 +48,33 @@ body[location='blog_post'] .markdown img {
   height: auto;
 }
 
-body[location='blog_post'] .bttn {
-  margin: 0 1rem;
-}
-
-@media (max-width: 768px) {
+@media (--small-only) {
+  body[location='blog_post'] {
+    padding: 0 1rem;
+  }
+  
   body[location='blog_post'] .fancy {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    padding: 0 0.5rem;
+  }
+  
+  body[location='blog_post'] .date {
+    padding: 0 0.5rem;
+  }
+  
+  body[location='blog_post'] .markdown {
+    padding: 0 0.5rem;
   }
   
   body[location='blog_post'] .markdown pre {
     font-size: 12px;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    width: calc(100% + 1rem);
+    padding: 0.75rem;
+  }
+  
+  body[location='blog_post'] .bttn {
+    margin: 0 0.5rem;
   }
 }
